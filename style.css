@@ -44,15 +44,17 @@ body {
 
 .box {
     text-align: center;
-    display: inline-block;
-    width: 410px;
+    width: calc(33.33% - 20px);
     height: 280px;
     margin: 10px;
-    background-color: lightgrey;  
+    background-color: white;
 }
 
 .box-container { 
-    text-align: center;
     padding: 25px;
+    min-width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
     margin: auto;
 }
